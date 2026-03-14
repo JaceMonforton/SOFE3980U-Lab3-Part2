@@ -18,6 +18,7 @@ public class Binary
 			char ch=number.charAt(i);
 			if(ch!='0' && ch!='1') {
 				number="0"; // if not store "0" and end the function
+				System.out.println("Invalid binary number. The value of the variable is set to 0.");
 				return;
 			}
 		}
